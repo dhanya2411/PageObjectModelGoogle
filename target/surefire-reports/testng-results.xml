@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-20T17:02:25Z" name="Surefire suite" finished-at="2024-09-20T17:06:34Z" duration-ms="248642">
+    <groups>
+    </groups>
+    <test started-at="2024-09-20T17:02:25Z" name="Surefire test" finished-at="2024-09-20T17:06:34Z" duration-ms="248642">
+      <class name="testcases.HomeTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:02:25Z" name="beforeMethod" finished-at="2024-09-20T17:02:41Z" duration-ms="15668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="HomePageTextVerification()[pri:1, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:02:41Z" name="HomePageTextVerification" finished-at="2024-09-20T17:02:47Z" duration-ms="6103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTextVerification -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:02:47Z" name="afterMethod" finished-at="2024-09-20T17:02:48Z" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:03:28Z" name="beforeMethod" finished-at="2024-09-20T17:03:43Z" duration-ms="14952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="RecoveryDetailsFromPropertyFile()[pri:2, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:03:43Z" name="RecoveryDetailsFromPropertyFile" finished-at="2024-09-20T17:04:05Z" duration-ms="21876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryDetailsFromPropertyFile -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:04:05Z" name="afterMethod" finished-at="2024-09-20T17:04:06Z" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:04:50Z" name="beforeMethod" finished-at="2024-09-20T17:05:05Z" duration-ms="14713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="RecoveryDetailsFromTestDataSheet(java.lang.String, java.lang.String)[pri:3, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:05:05Z" name="RecoveryDetailsFromTestDataSheet" data-provider="getTestData" finished-at="2024-09-20T17:05:24Z" duration-ms="19182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6 Rotunda St]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4377331160]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryDetailsFromTestDataSheet -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:05:24Z" name="afterMethod" finished-at="2024-09-20T17:05:25Z" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:05:25Z" name="beforeMethod" finished-at="2024-09-20T17:05:40Z" duration-ms="14810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="RecoveryDetailsFromTestDataSheet(java.lang.String, java.lang.String)[pri:3, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:05:40Z" name="RecoveryDetailsFromTestDataSheet" data-provider="getTestData" finished-at="2024-09-20T17:05:59Z" duration-ms="19085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[75 Mc Murchy ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5143267891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryDetailsFromTestDataSheet -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.HomeTest@33afa13b]" started-at="2024-09-20T17:05:59Z" name="afterMethod" finished-at="2024-09-20T17:06:00Z" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.HomeTest -->
+      <class name="testcases.PersonalInfoTest">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testcases.PersonalInfoTest@309e345f]" started-at="2024-09-20T17:03:03Z" name="BeforeMethod" finished-at="2024-09-20T17:03:18Z" duration-ms="14389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="HeaderTextVerification()[pri:1, instance:testcases.PersonalInfoTest@309e345f]" started-at="2024-09-20T17:03:18Z" name="HeaderTextVerification" finished-at="2024-09-20T17:03:27Z" duration-ms="9454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeaderTextVerification -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testcases.PersonalInfoTest@309e345f]" started-at="2024-09-20T17:03:27Z" name="AfterMethod" finished-at="2024-09-20T17:03:28Z" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testcases.PersonalInfoTest@309e345f]" started-at="2024-09-20T17:04:19Z" name="BeforeMethod" finished-at="2024-09-20T17:04:34Z" duration-ms="14774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="BasicInfo()[pri:2, instance:testcases.PersonalInfoTest@309e345f]" started-at="2024-09-20T17:04:34Z" name="BasicInfo" finished-at="2024-09-20T17:04:48Z" duration-ms="14644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicInfo -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testcases.PersonalInfoTest@309e345f]" started-at="2024-09-20T17:04:48Z" name="AfterMethod" finished-at="2024-09-20T17:04:49Z" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testcases.PersonalInfoTest@309e345f]" started-at="2024-09-20T17:06:09Z" name="BeforeMethod" finished-at="2024-09-20T17:06:23Z" duration-ms="14559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="ContactInfo()[pri:3, instance:testcases.PersonalInfoTest@309e345f]" started-at="2024-09-20T17:06:23Z" name="ContactInfo" finished-at="2024-09-20T17:06:33Z" duration-ms="9379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactInfo -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testcases.PersonalInfoTest@309e345f]" started-at="2024-09-20T17:06:33Z" name="AfterMethod" finished-at="2024-09-20T17:06:34Z" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- testcases.PersonalInfoTest -->
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.LoginTest@7a4ccb53]" started-at="2024-09-20T17:02:48Z" name="beforeMethod" finished-at="2024-09-20T17:02:53Z" duration-ms="5257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login()[pri:1, instance:testcases.LoginTest@7a4ccb53]" started-at="2024-09-20T17:02:53Z" name="login" finished-at="2024-09-20T17:03:03Z" duration-ms="9890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.LoginTest@7a4ccb53]" started-at="2024-09-20T17:03:03Z" name="afterMethod" finished-at="2024-09-20T17:03:03Z" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.LoginTest@7a4ccb53]" started-at="2024-09-20T17:04:06Z" name="beforeMethod" finished-at="2024-09-20T17:04:11Z" duration-ms="4949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ForgotEmail()[pri:2, instance:testcases.LoginTest@7a4ccb53]" started-at="2024-09-20T17:04:11Z" name="ForgotEmail" finished-at="2024-09-20T17:04:18Z" duration-ms="7493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotEmail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.LoginTest@7a4ccb53]" started-at="2024-09-20T17:04:18Z" name="afterMethod" finished-at="2024-09-20T17:04:19Z" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.LoginTest@7a4ccb53]" started-at="2024-09-20T17:06:00Z" name="beforeMethod" finished-at="2024-09-20T17:06:05Z" duration-ms="4927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LearnMoreAboutUSingGuestMode()[pri:3, instance:testcases.LoginTest@7a4ccb53]" started-at="2024-09-20T17:06:05Z" name="LearnMoreAboutUSingGuestMode" finished-at="2024-09-20T17:06:08Z" duration-ms="3221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LearnMoreAboutUSingGuestMode -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.LoginTest@7a4ccb53]" started-at="2024-09-20T17:06:08Z" name="afterMethod" finished-at="2024-09-20T17:06:09Z" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

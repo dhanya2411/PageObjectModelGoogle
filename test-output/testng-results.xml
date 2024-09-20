@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-20T16:17:57Z" name="Suite" finished-at="2024-09-20T16:21:46Z" duration-ms="229320">
+    <groups>
+    </groups>
+    <test started-at="2024-09-20T16:17:57Z" name="Test" finished-at="2024-09-20T16:21:46Z" duration-ms="229320">
+      <class name="testcases.HomeTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:18:13Z" name="beforeMethod" finished-at="2024-09-20T16:18:28Z" duration-ms="14706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="HomePageTextVerification()[pri:1, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:18:28Z" name="HomePageTextVerification" finished-at="2024-09-20T16:18:34Z" duration-ms="6060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTextVerification -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:18:34Z" name="afterMethod" finished-at="2024-09-20T16:18:35Z" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:19:12Z" name="beforeMethod" finished-at="2024-09-20T16:19:27Z" duration-ms="14688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="RecoveryDetailsFromPropertyFile()[pri:2, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:19:27Z" name="RecoveryDetailsFromPropertyFile" finished-at="2024-09-20T16:19:30Z" duration-ms="3035" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[@aria-label='Add recovery phone']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6c5b8012-befe-489c-9b07-fb62290afd9b, findElement {value=//a[@aria-label='Add recovery phone'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:debuggerAddress: 127.0.0.1:19947, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4000, moz:profile: C:\Users\dhany\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19947/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6c5b8012-befe-489c-9b07-fb62290afd9b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@aria-label='Add recovery phone']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6c5b8012-befe-489c-9b07-fb62290afd9b, findElement {value=//a[@aria-label='Add recovery phone'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:debuggerAddress: 127.0.0.1:19947, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4000, moz:profile: C:\Users\dhany\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:19947/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6c5b8012-befe-489c-9b07-fb62290afd9b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at pages.HomePage.AddRecoveryPhone(HomePage.java:70)
+at testcases.HomeTest.RecoveryDetailsFromPropertyFile(HomeTest.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryDetailsFromPropertyFile -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:19:30Z" name="afterMethod" finished-at="2024-09-20T16:19:31Z" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:20:12Z" name="beforeMethod" finished-at="2024-09-20T16:20:26Z" duration-ms="14453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="RecoveryDetailsFromTestDataSheet(java.lang.String, java.lang.String)[pri:3, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:20:26Z" name="RecoveryDetailsFromTestDataSheet" data-provider="getTestData" finished-at="2024-09-20T16:20:45Z" duration-ms="19259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6 Rotunda St]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4377331160]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryDetailsFromTestDataSheet -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:20:45Z" name="afterMethod" finished-at="2024-09-20T16:20:46Z" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:20:46Z" name="beforeMethod" finished-at="2024-09-20T16:21:01Z" duration-ms="14674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="RecoveryDetailsFromTestDataSheet(java.lang.String, java.lang.String)[pri:3, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:21:01Z" name="RecoveryDetailsFromTestDataSheet" data-provider="getTestData" finished-at="2024-09-20T16:21:20Z" duration-ms="19067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[75 Mc Murchy ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5143267891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryDetailsFromTestDataSheet -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.HomeTest@4b741d6d]" started-at="2024-09-20T16:21:20Z" name="afterMethod" finished-at="2024-09-20T16:21:21Z" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.HomeTest -->
+      <class name="testcases.PersonalInfoTest">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testcases.PersonalInfoTest@2eae8e6e]" started-at="2024-09-20T16:18:35Z" name="BeforeMethod" finished-at="2024-09-20T16:18:49Z" duration-ms="14433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="HeaderTextVerification()[pri:1, instance:testcases.PersonalInfoTest@2eae8e6e]" started-at="2024-09-20T16:18:49Z" name="HeaderTextVerification" finished-at="2024-09-20T16:18:58Z" duration-ms="9427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeaderTextVerification -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testcases.PersonalInfoTest@2eae8e6e]" started-at="2024-09-20T16:18:58Z" name="AfterMethod" finished-at="2024-09-20T16:18:59Z" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testcases.PersonalInfoTest@2eae8e6e]" started-at="2024-09-20T16:19:31Z" name="BeforeMethod" finished-at="2024-09-20T16:19:45Z" duration-ms="14615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="BasicInfo()[pri:2, instance:testcases.PersonalInfoTest@2eae8e6e]" started-at="2024-09-20T16:19:45Z" name="BasicInfo" finished-at="2024-09-20T16:20:00Z" duration-ms="14677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicInfo -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testcases.PersonalInfoTest@2eae8e6e]" started-at="2024-09-20T16:20:00Z" name="AfterMethod" finished-at="2024-09-20T16:20:01Z" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testcases.PersonalInfoTest@2eae8e6e]" started-at="2024-09-20T16:21:21Z" name="BeforeMethod" finished-at="2024-09-20T16:21:36Z" duration-ms="14784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="ContactInfo()[pri:3, instance:testcases.PersonalInfoTest@2eae8e6e]" started-at="2024-09-20T16:21:36Z" name="ContactInfo" finished-at="2024-09-20T16:21:45Z" duration-ms="9325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactInfo -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testcases.PersonalInfoTest@2eae8e6e]" started-at="2024-09-20T16:21:45Z" name="AfterMethod" finished-at="2024-09-20T16:21:46Z" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- testcases.PersonalInfoTest -->
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.LoginTest@15bb5034]" started-at="2024-09-20T16:17:57Z" name="beforeMethod" finished-at="2024-09-20T16:18:02Z" duration-ms="5541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login()[pri:1, instance:testcases.LoginTest@15bb5034]" started-at="2024-09-20T16:18:02Z" name="login" finished-at="2024-09-20T16:18:12Z" duration-ms="9907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.LoginTest@15bb5034]" started-at="2024-09-20T16:18:12Z" name="afterMethod" finished-at="2024-09-20T16:18:13Z" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.LoginTest@15bb5034]" started-at="2024-09-20T16:18:59Z" name="beforeMethod" finished-at="2024-09-20T16:19:04Z" duration-ms="4651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ForgotEmail()[pri:2, instance:testcases.LoginTest@15bb5034]" started-at="2024-09-20T16:19:04Z" name="ForgotEmail" finished-at="2024-09-20T16:19:12Z" duration-ms="7486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotEmail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.LoginTest@15bb5034]" started-at="2024-09-20T16:19:12Z" name="afterMethod" finished-at="2024-09-20T16:19:12Z" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.LoginTest@15bb5034]" started-at="2024-09-20T16:20:01Z" name="beforeMethod" finished-at="2024-09-20T16:20:06Z" duration-ms="4886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LearnMoreAboutUSingGuestMode()[pri:3, instance:testcases.LoginTest@15bb5034]" started-at="2024-09-20T16:20:06Z" name="LearnMoreAboutUSingGuestMode" finished-at="2024-09-20T16:20:09Z" duration-ms="3223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LearnMoreAboutUSingGuestMode -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.LoginTest@15bb5034]" started-at="2024-09-20T16:20:09Z" name="afterMethod" finished-at="2024-09-20T16:20:10Z" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
