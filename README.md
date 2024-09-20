@@ -14,7 +14,7 @@ Extent Reports
 
 ### Steps to clone execute the tests
 ```
-git clone [https://github.com/dhanya2411/PageObjectModelGoogle.git]
+git clone https://github.com/dhanya2411/PageObjectModelGoogle.git
 cd PageObjectModel
 mvn clean test
 ```
