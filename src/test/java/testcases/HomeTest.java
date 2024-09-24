@@ -15,7 +15,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-
 import pages.HomePage;
 import util.TestUtil;
 
@@ -58,7 +57,7 @@ public class HomeTest{
   hp.BackArrow.click();
   hp.AddRecoveryAddress(lt.tb.prop.getProperty("Address"));
   Assert.assertEquals(hp.RecoveryOptionsText1.getText(), "Your home and work addresses are used to personalize your experiences across Google products, and for more relevant ads. You can remove them any time. Learn more", "Text not matching");
-  print.debug("HomeTest - Test 1"); 
+  print.debug("HomeTest - Test 2"); 
   }  
   
   @DataProvider
@@ -75,7 +74,7 @@ public void RecoveryDetailsFromTestDataSheet(String Address ,String Phone) throw
 	  hp.AddRecoveryAddress(Address);  
 	  hp.CancelButton.click();
 	  hp.AddRecoveryPhone(Phone);
-	  print.debug("HomeTest - Test 1"); 
+	  print.debug("HomeTest - Test 3"); 
   }
   
   
